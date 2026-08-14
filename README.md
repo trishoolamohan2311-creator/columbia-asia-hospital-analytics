@@ -2,43 +2,43 @@
 
 ## Project Overview
 
-A hospital analytics project developed for Columbia Asia Hospital to analyze patient activity, department performance, doctor revenue, waiting time, patient satisfaction, and revenue trends.
+A hospital analytics project that was created for Columbia Asia Hospital to analyze patient activity, department performance, doctor revenue, waiting time, patient satisfaction and the revenue trends.
 
-The project combines SQL analysis with Power BI to transform hospital data into interactive dashboards and business recommendations for hospital management.
+The project consists of two parts: SQL analysis and Power BI; that is, in the first part, the hospital data is transformed into dashboards and business recommendations for the hospital management by using Power BI.
 
 ---
 
 ## Business Objectives
 
-The analysis focuses on:
+The analysis is based on the following:
 
-- Monitoring hospital-wide KPIs and operational performance
-- Understanding patient demographics and department-wise visit patterns
-- Evaluating doctor revenue contribution and performance
-- Analyzing department-wise revenue and waiting time
-- Understanding the relationship between waiting time and patient satisfaction
-- Identifying staffing and operational improvement opportunities
-- Developing targeted discount strategies based on patient segments
+- Hospital-wide KPI monitoring and operational performance
+Knowing the demographics of the patients and patient flow by department.Knowing patients' demographics and department-wise visits.
+Assessing DRC and performance of doctors
+- Revenue analysis by departments and waiting time analysis
+- Knowledge of the association between wait time and patient satisfaction.
+- Opportunities for staffing and operational improvements identified
+- Identifying patient segments & implementing tailored discounting strategies
 
 ---
 
 ## Methodology
 
-The project followed a structured analytics workflow:
+The project was structured to use the following analytics workflow:
 
-**Data Preparation → SQL Analysis → Power BI Dashboard → Insights → Recommendations**
+Data Preparation → SQL Analysis → Power BI Dashboard → Insights → Recommendations
 
 ### Data Preparation
 
-- Cleaned and prepared hospital data for analysis
-- Standardized data formats and fields
-- Prepared data for SQL and Power BI analysis
+- Cleared hospital data and made it ready for analysis.
+- Comprehend the data and its format.
+- Created data to be analysed in SQL and Power BI
 
 ### SQL Analysis
 
-SQL was used to analyze:
+The following data was analyzed using SQL:
 
-- Department-wise patient visits and performance
+The department-wise visits to patients and performance was done.Visits to patients and performance was done department wise.
 - Top revenue-generating doctors
 - Doctor gender distribution
 - Patient gender ratios
@@ -48,7 +48,7 @@ SQL was used to analyze:
 
 ### Power BI
 
-The prepared data was transformed into an interactive 3-page dashboard for hospital, doctor, and patient analysis.
+The information was then converted into an interactive 3-page dashboard for hospital, doctor, and patient analysis.
 
 ---
 
@@ -56,7 +56,7 @@ The prepared data was transformed into an interactive 3-page dashboard for hospi
 
 ### 1. Main Dashboard
 
-Provides a hospital-wide view of key performance indicators including:
+Gives a hospital-wide perspective of key performance indicators such as:
 
 - Total Doctors: **22**
 - Total Patients: **9,216**
@@ -67,16 +67,16 @@ Provides a hospital-wide view of key performance indicators including:
 
 ### 2. Doctors Dashboard
 
-Focuses on doctor-level performance through:
+Concentrates on the performance of doctors at the highest level, by doing the following:
 
 - Top revenue-generating doctors
 - Doctor-wise revenue contribution
-- Male-female patient distribution by doctor
+There is no distinction between male and female patients.The ratio of male to female patients is equal to 1:1.
 - Doctor performance comparison
 
 ### 3. Patients Dashboard
 
-Focuses on patient behavior and utilization through:
+Attends to patient behaviour and use of services by:
 
 - Age-group analysis
 - Department-wise patient visits
@@ -93,7 +93,7 @@ Focuses on patient behavior and utilization through:
 - Age Group Distribution
 - Gender Distribution
 - Department Preference
-- Waiting Time & Satisfaction Analysis
+Wait times and satisfaction analysis.
 
 ### Department Analysis
 
@@ -120,26 +120,26 @@ Focuses on patient behavior and utilization through:
 
 ## Key Findings
 
-- **Orthopedics** generated the highest departmental revenue at **₹17.29M (34%)**.
-- **General Practice** recorded the highest patient volume with **7,240 visits**.
-- Patients aged **36–60** formed the largest patient group, accounting for **31.7%** of visits.
-- **Neurology** recorded the highest average waiting time at **36.8 minutes**.
-- Patient satisfaction showed a **slight decline as waiting time increased**.
-- **Dr. Smith** was the highest revenue-generating doctor among the Top 5, contributing **40.5%**.
-- **Orthopedics and General Practice** together contributed **over 66% of total revenue**.
-- Monthly revenue declined from **$30.5M to $22.6M** during the analyzed period.
-- Male and female patient distribution remained **relatively balanced** across departments and doctors.
+The department with the highest revenue was Orthopedics at ₹17.29M (34%).
+The most patients visited were in General Practice with **7,240 visits**.
+The patients aged between 36-60 had the most number of visits at **31.7%**.
+The longest average waiting time was recorded by Neurology (36.8 minutes).
+There was a slight **decrease in patient satisfaction with longer waiting time.
+Dr. Smith's revenue of $50,000 was the highest among the Top 5 doctors, resulting in a 40.5% contribution to the total.
+The combined revenue of Orthopedics and General Practice accounted for more than 66% of the total revenue.
+During the period studied, monthly revenue fell from $30.5M to $22.6M.
+The male-female patient ratio was fairly even among departments and doctors.
 
 ---
 
 ## Business Recommendations
 
-- Prioritize staffing in **General Practice and Neurology** based on patient demand and waiting time.
-- Optimize appointment scheduling to reduce patient waiting time.
-- Monitor patient satisfaction alongside service performance.
-- Strengthen high-revenue departments while improving lower-revenue departments.
-- Implement targeted discount strategies for **frequent visitors, senior citizens, and low-satisfaction patients**.
-- Track revenue and operational KPIs regularly to support data-driven decisions.
+- Staff according to patient needs and waiting time in the following specialties: General Practice and Neurology.
+- To coordinate appointments and minimize patient waiting.
+- Track the patients' satisfaction along with the service performance.
+Increase the funding of high revenue departments and strengthen the lower revenue departments.
+- Develop specific discount policies for patients with low satisfaction levels, senior citizens and repeat patients.
+Regularly monitor revenue and operational KPIs to guide decision making.
 
 ---
 

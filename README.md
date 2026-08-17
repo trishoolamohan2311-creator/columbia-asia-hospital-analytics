@@ -1,6 +1,6 @@
 # Columbia Asia Hospital Analytics
 
-## Project Overview
+## 📌Project Overview
 
 A hospital analytics project using SQL and Power BI to analyze patient visits, department performance, doctor revenue, waiting time, patient satisfaction, and revenue trends.
 
@@ -10,7 +10,7 @@ The project focuses on three business objectives:
 - Identify departments for new doctor hiring
 - Develop patient discount strategies
 
-## Business Objectives
+## 🎯Business Objectives
 
 - Analyze revenue by department and over time
 - Identify departments with high patient demand and operational pressure
@@ -19,7 +19,7 @@ The project focuses on three business objectives:
 - Study waiting time and its relationship with patient satisfaction
 - Develop targeted discount strategies for selected patient segments
 
-## Tools & Technologies
+## 🛠️Tools & Technologies
 
 - SQL
 - Power BI
@@ -27,7 +27,7 @@ The project focuses on three business objectives:
 - Power Query
 - Excel
 
-## Dashboard
+## 📊Dashboard
 
 The Power BI report contains three dashboards.
 
@@ -61,7 +61,7 @@ Analyzes:
 - Waiting time
 - Patient satisfaction
 
-## Data Model
+## 🗂️Data Model
 
 The Power BI model uses four main tables:
 
@@ -72,7 +72,7 @@ The Power BI model uses four main tables:
 
 The tables are connected using patient, doctor, and date fields. Calculated columns and DAX measures were used for the dashboard analysis.
 
-## Analysis Performed
+## 🔍Analysis Performed
 
 ### Patient Analysis
 
@@ -103,7 +103,7 @@ The tables are connected using patient, doctor, and date fields. Calculated colu
 - Revenue Concentration
 - Revenue Performance
 
-## Advanced SQL Analysis
+## 💻Advanced SQL Analysis
 
 - Top Revenue-Generating Doctors
 - Doctor Diversity Analysis
@@ -113,7 +113,7 @@ The tables are connected using patient, doctor, and date fields. Calculated colu
 - Satisfaction Score Analysis
 - Male-Female Revenue Ratio by Department
 
-## Key Findings
+## 💡Key Findings
 
 - **Orthopedics** generated the highest departmental revenue at **₹17.29M (34%)**.
 - **General Practice** recorded the highest patient volume with **7,240 visits**.
@@ -125,7 +125,7 @@ The tables are connected using patient, doctor, and date fields. Calculated colu
 - Monthly revenue declined from **$30.5M to $22.6M** during the analyzed period.
 - Male and female patient distribution remained **relatively balanced** across departments and doctors.
 
-## Business Recommendations
+## 📈Business Recommendations
 
 - Prioritize staffing in **General Practice and Neurology** based on patient demand and waiting time.
 - Optimize appointment scheduling to reduce patient waiting time.
@@ -134,7 +134,7 @@ The tables are connected using patient, doctor, and date fields. Calculated colu
 - Use targeted discounts for **frequent visitors, senior citizens, and patients with low satisfaction**.
 - Monitor revenue trends and key operational KPIs regularly.
 
-## Dashboard Screenshots
+## 🖼️Dashboard Screenshots
 
 ### Main Dashboard
 
@@ -151,7 +151,7 @@ The tables are connected using patient, doctor, and date fields. Calculated colu
 ![Patients Dashboard] <img width="888" height="501" alt="image" src="https://github.com/user-attachments/assets/5fa58c6a-55c5-4bc6-89d5-d417ed6f33f2" />
 
 
-## Project Files
+## 📁Project Files
 
 - Power BI Dashboard — `.pbix`
 - SQL Analysis — `.sql`

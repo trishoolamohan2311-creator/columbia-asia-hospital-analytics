@@ -138,15 +138,18 @@ The tables are connected using patient, doctor, and date fields. Calculated colu
 
 ### Main Dashboard
 
-![Main Dashboard](main-dashboard.png)
+![Main Dashboard] <img width="890" height="502" alt="image" src="https://github.com/user-attachments/assets/556c9c21-1352-4399-8bd9-1c3cfeba8271" />
+
 
 ### Doctors Dashboard
 
-![Doctors Dashboard](doctors-dashboard.png)
+![Doctors Dashboard] <img width="889" height="500" alt="image" src="https://github.com/user-attachments/assets/6f6363fd-bb72-4f8e-898b-2f8cfd3ba3c7" />
+
 
 ### Patients Dashboard
 
-![Patients Dashboard](patients-dashboard.png)
+![Patients Dashboard] <img width="888" height="501" alt="image" src="https://github.com/user-attachments/assets/5fa58c6a-55c5-4bc6-89d5-d417ed6f33f2" />
+
 
 ## Project Files
 

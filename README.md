@@ -2,89 +2,75 @@
 
 ## Project Overview
 
-A hospital analytics project that was created for Columbia Asia Hospital to analyze patient activity, department performance, doctor revenue, waiting time, patient satisfaction and the revenue trends.
+A hospital analytics project using SQL and Power BI to analyze patient visits, department performance, doctor revenue, waiting time, patient satisfaction, and revenue trends.
 
-The project consists of two parts: SQL analysis and Power BI; that is, in the first part, the hospital data is transformed into dashboards and business recommendations for the hospital management by using Power BI.
+The project focuses on three business objectives:
 
----
+- Assess hospital revenue generation
+- Identify departments for new doctor hiring
+- Develop patient discount strategies
 
 ## Business Objectives
 
-The analysis is based on the following:
+- Analyze revenue by department and over time
+- Identify departments with high patient demand and operational pressure
+- Evaluate doctor-level revenue contribution
+- Analyze patient demographics and department preferences
+- Study waiting time and its relationship with patient satisfaction
+- Develop targeted discount strategies for selected patient segments
 
-- Hospital-wide KPI monitoring and operational performance
-Knowing the demographics of the patients and patient flow by department.Knowing patients' demographics and department-wise visits.
-Assessing DRC and performance of doctors
-- Revenue analysis by departments and waiting time analysis
-- Knowledge of the association between wait time and patient satisfaction.
-- Opportunities for staffing and operational improvements identified
-- Identifying patient segments & implementing tailored discounting strategies
+## Tools & Technologies
 
----
+- SQL
+- Power BI
+- DAX
+- Power Query
+- Excel
 
-## Methodology
+## Dashboard
 
-The project was structured to use the following analytics workflow:
+The Power BI report contains three dashboards.
 
-Data Preparation → SQL Analysis → Power BI Dashboard → Insights → Recommendations
+### Main Dashboard
 
-### Data Preparation
+Provides hospital-level KPIs for:
 
-- Cleared hospital data and made it ready for analysis.
-- Comprehend the data and its format.
-- Created data to be analysed in SQL and Power BI
+- Total Doctors
+- Total Patients
+- Total Revenue
+- Average Waiting Time
+- Average Patient Bill
+- Average Satisfaction Score
 
-### SQL Analysis
+### Doctors Dashboard
 
-The following data was analyzed using SQL:
+Analyzes:
 
-The department-wise visits to patients and performance was done.Visits to patients and performance was done department wise.
+- Doctor revenue contribution
 - Top revenue-generating doctors
-- Doctor gender distribution
-- Patient gender ratios
-- Waiting time patterns
-- Patient satisfaction
-- Revenue trends
+- Patient distribution by gender
+- Doctor-level performance
 
-### Power BI
+### Patients Dashboard
 
-The information was then converted into an interactive 3-page dashboard for hospital, doctor, and patient analysis.
+Analyzes:
 
----
-
-## Dashboard Structure
-
-### 1. Main Dashboard
-
-Gives a hospital-wide perspective of key performance indicators such as:
-
-- Total Doctors: **22**
-- Total Patients: **9,216**
-- Total Revenue: **$509.31M**
-- Average Waiting Time: **35.26 minutes**
-- Average Patient Bill: **$55.26K**
-- Average Satisfaction Score: **5**
-
-### 2. Doctors Dashboard
-
-Concentrates on the performance of doctors at the highest level, by doing the following:
-
-- Top revenue-generating doctors
-- Doctor-wise revenue contribution
-There is no distinction between male and female patients.The ratio of male to female patients is equal to 1:1.
-- Doctor performance comparison
-
-### 3. Patients Dashboard
-
-Attends to patient behaviour and use of services by:
-
-- Age-group analysis
-- Department-wise patient visits
+- Patient age groups
 - Gender distribution
-- Waiting time analysis
-- Patient satisfaction analysis
+- Department-wise patient visits
+- Waiting time
+- Patient satisfaction
 
----
+## Data Model
+
+The Power BI model uses four main tables:
+
+- `Doctors_Patients`
+- `Hospital_ER`
+- `Calendar`
+- `visiting_hours`
+
+The tables are connected using patient, doctor, and date fields. Calculated columns and DAX measures were used for the dashboard analysis.
 
 ## Analysis Performed
 
@@ -93,13 +79,14 @@ Attends to patient behaviour and use of services by:
 - Age Group Distribution
 - Gender Distribution
 - Department Preference
-Wait times and satisfaction analysis.
+- Waiting Time & Satisfaction Analysis
+- Patient Demographic Analysis
 
 ### Department Analysis
 
 - Patient Visits by Department
 - Revenue Contribution
-- Department Waiting Time
+- Average Waiting Time
 - Department Performance
 
 ### Doctor Analysis
@@ -116,37 +103,55 @@ Wait times and satisfaction analysis.
 - Revenue Concentration
 - Revenue Performance
 
----
+## Advanced SQL Analysis
+
+- Top Revenue-Generating Doctors
+- Doctor Diversity Analysis
+- Gender Ratio Analysis
+- Department Performance
+- Waiting Time Analysis
+- Satisfaction Score Analysis
+- Male-Female Revenue Ratio by Department
 
 ## Key Findings
 
-The department with the highest revenue was Orthopedics at ₹17.29M (34%).
-The most patients visited were in General Practice with **7,240 visits**.
-The patients aged between 36-60 had the most number of visits at **31.7%**.
-The longest average waiting time was recorded by Neurology (36.8 minutes).
-There was a slight **decrease in patient satisfaction with longer waiting time.
-Dr. Smith's revenue of $50,000 was the highest among the Top 5 doctors, resulting in a 40.5% contribution to the total.
-The combined revenue of Orthopedics and General Practice accounted for more than 66% of the total revenue.
-During the period studied, monthly revenue fell from $30.5M to $22.6M.
-The male-female patient ratio was fairly even among departments and doctors.
-
----
+- **Orthopedics** generated the highest departmental revenue at **₹17.29M (34%)**.
+- **General Practice** recorded the highest patient volume with **7,240 visits**.
+- **Patients aged 36–60** formed the largest age group, accounting for **31.7% of visits**.
+- **Neurology** recorded the highest average waiting time at **36.8 minutes**.
+- Patient satisfaction showed a **slight decline as waiting time increased**.
+- **Dr. Smith** generated the highest revenue among the Top 5 doctors, contributing **40.5%**.
+- **Orthopedics and General Practice** contributed over **66% of total revenue**.
+- Monthly revenue declined from **$30.5M to $22.6M** during the analyzed period.
+- Male and female patient distribution remained **relatively balanced** across departments and doctors.
 
 ## Business Recommendations
 
-- Staff according to patient needs and waiting time in the following specialties: General Practice and Neurology.
-- To coordinate appointments and minimize patient waiting.
-- Track the patients' satisfaction along with the service performance.
-Increase the funding of high revenue departments and strengthen the lower revenue departments.
-- Develop specific discount policies for patients with low satisfaction levels, senior citizens and repeat patients.
-Regularly monitor revenue and operational KPIs to guide decision making.
+- Prioritize staffing in **General Practice and Neurology** based on patient demand and waiting time.
+- Optimize appointment scheduling to reduce patient waiting time.
+- Monitor patient satisfaction alongside service performance.
+- Allocate resources based on patient demand and revenue contribution.
+- Use targeted discounts for **frequent visitors, senior citizens, and patients with low satisfaction**.
+- Monitor revenue trends and key operational KPIs regularly.
 
----
+## Dashboard Screenshots
 
-## Project Deliverables
+### Main Dashboard
 
-- Power BI Dashboard
-- SQL Analysis
-- Project Documentation
-- Project Presentation
-- Dashboard Screenshots
+![Main Dashboard](main-dashboard.png)
+
+### Doctors Dashboard
+
+![Doctors Dashboard](doctors-dashboard.png)
+
+### Patients Dashboard
+
+![Patients Dashboard](patients-dashboard.png)
+
+## Project Files
+
+- Power BI Dashboard — `.pbix`
+- SQL Analysis — `.sql`
+- Project Documentation — `.docx`
+- Project Presentation — `.pptx`
+- Dashboard Screenshots — `.png`
